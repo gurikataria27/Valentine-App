@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
         choiceBox.classList.remove("hide"); // Show Yes/No options
 
         // Show partner name instantly
-        questionText.innerHTML = `<span class="partner-name">${partnerName}</span><br><span class="typed-text"></span>`;
+        questionText.innerHTML = `<span class="partner-name">${GLENISE}</span><br><span class="typed-text"></span>`;
 
         // Start typewriter effect for the second line
         const typedTextElement = document.querySelector(".typed-text");
